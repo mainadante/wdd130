@@ -11,6 +11,24 @@ a {
     text-decoration: none;
 }
 
+p {
+    display: block;
+    font-size: 40px;
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+    /* unicode-bidi: isolate; */
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
 body {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -18,7 +36,7 @@ body {
     padding: 0;
     background-color: var(--white-color);
     color: var(--black-color);
-    max-width: 80rem;
+    max-width: 80%;
     margin: auto;
     line-height: 1.6;
 }
@@ -30,7 +48,7 @@ header {
     background-color: var(--orange-color);
     /* color: var(--white-color); */
     padding: 10px 20px;
-    /* font-size: 25px; */
+    font-size: 40px;
 }
 
 header img {
@@ -65,9 +83,20 @@ main {
     bottom: 80%;
     background-color: var(--orange-rgba-color);
     color: var(--white-color);
-    font-size: 40px;
+    font-size: 5em;
     padding: 10px;
 }
+
+/* h1 { */
+    /* display: block; */
+    /* font-size: 2em; */
+    /* margin-block-start: 0.67em; */
+    /* margin-block-end: 0.67em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+    /* font-weight: bold; */
+    /* unicode-bidi: isolate; */
+/* } */
 
 .hero article {
     position: absolute;
@@ -106,28 +135,6 @@ article {
     overflow-y: ;
 } */
 
-h1 {
-    display: block;
-    font-size: 2em;
-    /* margin-block-start: 0.67em; */
-    /* margin-block-end: 0.67em; */
-    /* margin-inline-start: 0px; */
-    /* margin-inline-end: 0px; */
-    font-weight: bold;
-    /* unicode-bidi: isolate; */
-}
-
-p {
-    display: block;
-    /* font-size: 20px; */
-    /* margin-block-start: 1em; */
-    /* margin-block-end: 1em; */
-    /* margin-inline-start: 0px; */
-    /* margin-inline-end: 0px; */
-    /* unicode-bidi: isolate; */
-}
-
-
 
 section {
     display: block;
@@ -136,5 +143,10 @@ section {
 
 footer {
     background-color: var(--orange-color);
+    width: ;
     padding: 10px 0;
+}
+
+footer nav img {
+    width: 80px;
 }
