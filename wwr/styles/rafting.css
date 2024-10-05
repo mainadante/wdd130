@@ -1,0 +1,56 @@
+:root {
+    --body-font-family: "Roboto", sans-serif;
+    --body-font-weight: 400;
+    --body-font-style: normal;
+    --h1-font-family: font-family: "Roboto", sans-serif;
+    --h1-font-weight: 100;
+    --h1-font-style: normal;
+    --yellow-background-color: #FFA837;
+    --orange-background-color: #F27416;
+    --green-background-color: #1D5000;
+    --blue-background-color: #304474;
+
+}
+
+body {
+    width: ;
+}
+
+h1 {
+    position: absolute;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    font-style: var(--h1-font-style);
+    color: var(--green-background-color);
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-style: var(--body-font-style);
+    color: var(--blue-background-color);
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.hero {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    background-color: var(--yellow-background-color);
+}
+
+article img {
+    float: right;
+}
