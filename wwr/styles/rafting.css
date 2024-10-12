@@ -180,6 +180,7 @@ section {
     background-color: var(--orange-color); 
     text-align: center;
     margin: 40px 0; 
+    border-radius: 10px;
 
 }
 
@@ -202,7 +203,7 @@ figure {
 
 figure img {
     width: 100%;
-    max-width: 150px;
+    max-width: 600px;
     height: auto;
     border-radius: 10px;
 }
@@ -214,10 +215,30 @@ figcaption {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--orange-color);
-    padding: 10px 0;
+    padding: 40px;
+    border-top: 2px solid #999;
+    font-size: 2em;
+    border-radius: 10px;
+    gap: 40px;
 }
 
-footer nav img {
-    width: 80px;
+footer p {
+    margin: 0;
+    color: var(--black-color);
+    
+}
+
+.sociallinks {
+    display: flex;
+    gap: 20px;
+}
+
+.sociallinks a img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
 }
