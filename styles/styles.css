@@ -22,6 +22,11 @@ nav {
 }
 
 nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
     color: white;
     display: block;
     padding: 20px;
@@ -29,6 +34,7 @@ nav a {
 
 h1 {
     color: var(--heading-background-color);
+   
 }
 
 main img {
@@ -82,3 +88,6 @@ footer {
     color: white;
 
 }
+
+
+/* parei no topico 6 */
