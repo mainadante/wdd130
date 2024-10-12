@@ -3,26 +3,8 @@
     --orange-color: #F27416;
     --orange-rgba-color: rgba(242, 116, 22, 0.8);
     --black-color: #000000;
-    --blue-color: #304474;
+    --green-color: #1D5000;
 
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-p {
-    display: block;
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 40px;
 }
 
 
@@ -32,7 +14,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--white-color);
-    color: var(--black-color);
     max-width: 80%;
     margin: auto;
     line-height: 1.6;
@@ -60,6 +41,7 @@ header {
 
 .navbar a {
     color: var(--white-color);
+    font-family: "Roboto", sans-serif;
     padding: 10px;
     text-decoration: none;
     font-size: 3em;
@@ -67,7 +49,7 @@ header {
 }
 
 .navbar a:hover {
-    background-color: var(--blue-color);
+    background-color: var(--green-color);
     border-radius: 10px; 
 }
 
@@ -97,15 +79,16 @@ main {
     text-align: center;
     bottom: 80%;
     background-color: var(--orange-rgba-color);
+    font-family: "Roboto", sans-serif;
     color: var(--white-color);
-    font-size: 5em;
+    font-size: 7em;
     padding: 10px;
 }
 
 .hero article {
     position: absolute;
-    bottom: 40%;
-    left: 65%;
+    bottom: 35%;
+    left: 68%;
     transform: translateX(-50%);
     width: 60%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -115,23 +98,23 @@ main {
 
 .hero article img {
     float: right;
-    width: 40%;
+    width: 50%;
     height: auto;
-    margin-left: 15px;
+    margin-left: 0;
     margin-bottom: 15px;
 
 }
 
 .hero article p {
+    font-family: "Roboto", sans-serif;
+    font-size: 3em;
     margin-top: 10px;
-    color: #ffff;
+    color: var(--white-color)
 }
 
 article {
     display: block;
-   
 }
-
 
 section {
     display: block;
@@ -150,7 +133,8 @@ section {
 }
 
 .history-section h2 {
-    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+    font-size: 5em;
     margin-bottom: 20px;
 }
 
@@ -185,7 +169,7 @@ section {
 }
 
 .adventures-section h2 {
-    font-size: 2.5em;
+    font-size: 5em;
     margin-bottom: 20px;
 }
 
@@ -210,7 +194,7 @@ figure img {
 
 figcaption {
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #333;
 }
 
@@ -221,14 +205,13 @@ footer {
     background-color: var(--orange-color);
     padding: 40px;
     border-top: 2px solid #999;
-    font-size: 2em;
     border-radius: 10px;
     gap: 40px;
 }
 
 footer p {
     margin: 0;
-    color: var(--black-color);
+    font-size: 3em;
     
 }
 
