@@ -57,7 +57,7 @@ legend {
 
 label, input, button, select, textarea, p {
     font-family: Roboto, Arial, sans-serif;
-    font-size: 1em;
+    /* font-size: 1em; */ 
 }
 
 
