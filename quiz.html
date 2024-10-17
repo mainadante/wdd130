@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Maina Dante | HTML and CSS Quiz</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <label for="q1">Name:</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+
+                <div class="divq2">
+                    <label for="q2">List 3 HTML tags:</label>
+                    <textarea id="q2" name="q2" rows="6" placeholder="Type here..."></textarea>
+                </div>
+
+                <div class="divq3">
+                    <label for="q3">Select what CSS is:</label>
+                    <select name="q3" id="q3">
+                        <option value="">--Please choose an option--</option>
+                        <option value="pages">CSS is the standard markup language for creating Web pages.</option>
+                        <option value="style">CSS is the language we use to style an HTML document.</option>
+                        <option value="programming">CSS is not a programming language.</option>
+                    </select>   
+                </div>
+
+                <div class="divq4">
+                    <label for="q4">What is the bottom margin given this declaration?</label>
+                    <p>margin: 10px 5px 15px</p>
+                    <input type="number" id="q4" name="q4">
+
+                </div>
+                          
+                <div class="divq5">
+                    <p>What is HTML:</p>
+                    <label for="html1"><input type="radio" id="html1" name="html1">HTML is the standard markup language for creating Web pages.</label>
+                    <label for="html2"><input type="radio" id="html2" name="html2">HTML is the language we use to style an CSS document.</label>
+                    <label for="html3"><input type="radio" id="html3" name="html3">HTML is not a programming language.</label>   
+                </div>
+                
+                <div class="div6">
+                    <label>What is NOT true about CSS (select all the wrong answers):</label>
+                    <label for="css4"><input type="checkbox" id="css4" name="css4">CSS is the language we use to style an HTML document.</label>
+                    <label for="css5"><input type="checkbox" id="css5" name="css5">CSS describes how HTML elements should be displayed.</label>
+                    <label for="css6"><input type="checkbox" id="css6" name="css6">CSS stands for Creative Style Sheets</label>
+                    <label for="css7"><input type="checkbox" id="css7" name="css7">CSS stands for Colorful Style Sheets</label>
+
+                </div>
+
+                
+
+                <button type="submit">Submit Quiz</button>
+            </fieldset>
+            
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
