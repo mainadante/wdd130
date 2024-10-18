@@ -1,9 +1,10 @@
 :root {
     --white-color: #ffffff;
-    --orange-color: #BE5709;
-    --orange-rgba-color: rgba(190, 87, 9, 0.8);
+    --light-blue-color: #9BD1E5;
+    --blue-rgba-color: rgba(62, 88, 146, 0.8);
     --black-color: #000000;
-    --green-color: #1D5000;
+    --yellow-color: #FFEE38;
+    --blue-color: hsl(221, 40%, 41%);
 
 }
 
@@ -24,7 +25,7 @@ header {
     display: grid;
     grid-template-columns: 1fr auto; 
     align-items: center; 
-    background-color: var(--orange-color);
+    background-color: var(--blue-color);
     padding: 10px 50px 10px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -49,12 +50,12 @@ header {
 }
 
 .navbar a:hover {
-    background-color: var(--green-color);
+    background-color: var(--yellow-color);
     border-radius: 10px; 
 }
 
 header img {
-    width: 200px; 
+    width: 400px; 
     height: auto;
 }
 
@@ -78,7 +79,7 @@ main {
     width: 99.6%;
     text-align: center;
     bottom: 80%;
-    background-color: var(--orange-rgba-color);
+    background-color: var(--blue-rgba-color);
     font-family: "Roboto", sans-serif;
     color: var(--white-color);
     font-size: 7em;
@@ -91,7 +92,7 @@ main {
     left: 68%;
     transform: translateX(-50%);
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--blue-rgba-color);
     padding: 20px;
     
 }
@@ -125,7 +126,7 @@ section {
 
 .history-section {
     padding: 40px;
-    background-color: var(--orange-color);
+    background-color: var(--light-blue-color);
     border: 1px solid #ccc;
     border-radius: 10px;
     margin: 40px 0;
@@ -161,7 +162,7 @@ section {
 
 .adventures-section {
     padding: 40px;
-    background-color: var(--orange-color); 
+    background-color: var(--light-blue-color); 
     text-align: center;
     margin: 40px 0; 
     border-radius: 10px;
@@ -202,7 +203,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--orange-color);
+    background-color: var(--blue-color);
     padding: 40px;
     border-top: 2px solid #999;
     border-radius: 10px;
