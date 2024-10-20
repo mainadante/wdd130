@@ -48,7 +48,7 @@ header {
 }
 
 .navbar a:hover {
-    background-color: var(--yellow-color);
+    background-color: var(--light-blue-color);
     border-radius: 10px; 
 }
 
@@ -405,7 +405,7 @@ textarea {
 }
 
 .submit-button:hover {
-    background-color: var(--yellow-color);
+    background-color: var(--light-blue-color);
 }
 
 
