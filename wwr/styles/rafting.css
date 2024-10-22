@@ -48,10 +48,11 @@ header {
     transition: background-color 0.3s ease;   
 }
 
-/* .navbar a:hover {
+nav a:hover {
     background-color: var(--light-blue-color);
     border-radius: 10px; 
-} */
+}
+
 
 header img {
     width: 400px; 
@@ -266,15 +267,9 @@ footer a {
 
 
 .company-info a {
-    color: var(--blue-color);
-    text-decoration: none;
+    color: var(--black-color);
 }
 
-
-.company-info a:hover {
-    text-decoration: underline;
-    
-}
 
 .map-container {
     margin-top: 30px;
