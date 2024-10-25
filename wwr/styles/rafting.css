@@ -404,7 +404,9 @@ footer a {
     width: 100%;
     height: auto;
     position: relative;
+    border-radius: 10px;
 }
+
 
 .index-hero h1 {
     position: absolute;
@@ -438,123 +440,123 @@ footer a {
 
 }
 
-.newsletter-form-section {
+.imgs-over-index-hero h2, .imgs-over-index-hero p {
+    margin: 0 auto;
+}
+
+
+
+/* Updated CSS for .cta-newsletter-section with a much larger .cta-section */
+.cta-newsletter-section {
+    display: flex;
+    flex-direction: row; /* Side-by-side layout */
+    gap: 120px; /* Increase gap between sections */
+    align-items: center;
+    padding: 160px 80px; /* Larger padding */
     background-color: var(--light-blue-color);
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 50px;
+    border-radius: 30px;
+    margin: 160px auto;
+    max-width: 2800px; /* Increase the max width */
+    flex-wrap: wrap;
 }
 
-.newsletter-form {
-    display: grid;
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color:var(--white-color);
-    border-radius: 10px;
-    border: 10px solid var(--light-blue-color);    
+/* Much Larger CTA Section Styles */
+.cta-newsletter-section .cta-section {
+    text-align: center;
+    background-color: var(--white-color);
+    padding: 150px; /* Even larger padding */
+    border-radius: 30px;
+    border: 6px solid var(--blue-color);
+    max-width: 2000px; /* Larger max width */
+    flex: 2; /* Make the .cta-section significantly bigger compared to other sections */
 }
 
-.newsletter-form legend {
-    font-weight: bold;
-    font-size: 5em;
-}
-
-.newsletter-form label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 3em;
-}
-
-.newsletter-form input[type="text"], .newsletter-form input[type="email"] {
+.cta-newsletter-section .cta-section img {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid var(--light-blue-color);
-    border-radius: 5px;
-    box-sizing: border-box;
+    max-width: 2000px; /* Much larger image size */
+    margin-bottom: 60px;
+    border-radius: 30px;
 }
 
+.cta-newsletter-section .cta-section h2 {
+    font-size: 6em; /* Even larger heading size */
+    margin-bottom: 40px;
+}
 
-.newsletter-form input[type="submit"] {
+.cta-newsletter-section .cta-section p {
+    font-size: 3em; /* Even larger paragraph size */
+    margin-bottom: 50px;
+}
+
+/* Larger Image Styles */
+.cta-newsletter-section .large-image {
+    max-width: 2000px; /* Make the image much larger */
+    flex: 1;
+}
+
+/* Newsletter Form Styles */
+.cta-newsletter-section .newsletter-form {
+    background-color: var(--white-color);
+    border-radius: 30px;
+    border: 6px solid var(--light-blue-color);
+    padding: 150px; /* Much larger padding */
+    max-width: 1400px;
+    width: 100%;
+}
+
+.cta-newsletter-section .newsletter-form legend {
+    font-size: 5em; /* Larger font size */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cta-newsletter-section .newsletter-form label {
+    font-size: 3em; /* Larger font size */
     display: block;
-    margin: 0 auto;
-    width: 30%;  
-    padding: 12px 24px;
+    margin-bottom: 30px;
+}
+
+.cta-newsletter-section .newsletter-form input[type="text"],
+.cta-newsletter-section .newsletter-form input[type="email"] {
+    width: 94%;
+    padding: 40px; /* Even larger padding */
+    margin-bottom: 40px;
+    border: 4px solid var(--light-blue-color);
+    border-radius: 15px;
+    font-size: 2.5em; /* Larger font size */
+}
+
+.cta-newsletter-section .newsletter-form input[type="submit"] {
+    width: 100%;
     background-color: var(--blue-color);
     color: var(--white-color);
+    padding: 40px; /* Much larger padding */
     border: none;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 3em; /* Even larger font size */
     transition: background-color 0.3s;
 }
 
-.newsletter-form input[type="submit"]:hover {
+.cta-newsletter-section .newsletter-form input[type="submit"]:hover {
     background-color: var(--light-blue-color);
 }
 
-.newsletter-form fieldset {
-    border: 2px solid var(--light-blue-color);
-}
-
-.cta-section {
-    display: grid;
-    background-color: var(--light-blue-color);
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.img-cta img {
-    grid-column: 1 / 3;
-    width: 50%;
-    z-index: 0;
-}
-
-.cta-section {
-    grid-column: 2/3;
-    text-align: center;
-    background-color: var(--white-color);
-    padding: 30px;
-    border-radius: 10px;
-    border: 2px solid var(--light-blue-color);
-    margin: 20px auto;
-    max-width: 600px;
-}
-
-.cta-section h2 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    color: var(--blue-color);
-}
-
-.cta-section p {
-    font-size: 3em;
-    margin-bottom: 20px;
-    color: var(--black-color);
-}
-
-.cta-section-button {
+/* Larger CTA Button Styles */
+.cta-newsletter-section .cta-button {
     display: inline-block;
     background-color: var(--blue-color);
     color: var(--white-color);
-    padding: 12px 24px;
-    border-radius: 4px;
+    padding: 30px 60px; /* Increase padding for a larger button */
+    border-radius: 15px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 3em; /* Larger font size */
     transition: background-color 0.3s;
-    width: auto;
-    
+    margin-top: 30px;
 }
 
-.cta-section-button:hover {
+.cta-
+r-section .cta-button:hover {
     background-color: var(--light-blue-color);
 }
-
-
-
-
-
-
 
