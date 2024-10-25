@@ -64,18 +64,18 @@ main {
     width: 100%;
 }
 
-.hero {
+.about-us-hero {
     position: relative;
 }
 
-.hero img {
+.about-us-hero img {
     display: block;
     width: 100%;
     height: auto;
     position: relative;
 }
 
-.hero h1 {
+.about-us-hero h1 {
     position: absolute;
     width: 99.6%;
     text-align: center;
@@ -87,8 +87,7 @@ main {
     padding: 10px;
 }
 
-.hero article {
-    /* display: block; */
+.about-us-hero article {
     position: absolute;
     border-radius: 10px;
     bottom: 20%;
@@ -100,7 +99,7 @@ main {
     
 }
 
-.hero article img {
+.about-us-hero article img {
     float: right;
     width: 30%;
     height: auto;
@@ -109,7 +108,7 @@ main {
 
 }
 
-.hero article p {
+.about-us-hero article p {
     font-family: "Roboto", sans-serif;
     font-size: 4em;
     margin: 0 auto;
@@ -118,13 +117,6 @@ main {
     padding-top: 4.5%;
 }
 
-
-section {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-/* Just added it bellow: */
 
 .history-section {
     padding: 40px;
@@ -248,8 +240,6 @@ footer a {
     background-color: var(--light-blue-color);
     padding: 40px 30px 60px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* max-width: 80%; */
     margin-bottom: 10px;
 }
 
@@ -275,7 +265,7 @@ footer a {
     margin-top: 30px;
 }
 
-iframe {
+.map-container iframe {
     width: 30%;
 }
 
@@ -301,7 +291,6 @@ iframe {
 }
 
 .employee-images-section img {
-    /* width: 100%; */
     width: 800px;
     max-width: 900px;
     height: auto;
@@ -364,10 +353,6 @@ iframe {
     border-radius: 4px;
 }
 
-.contact-form-section input[type="email"] {
-    width: 100%;
-}
-
 
 .radio-group label,
 .contact-checkbox-group label {
@@ -376,9 +361,9 @@ iframe {
     font-weight: normal;
 }
 
-.contact-form-section input[type="radio"], .form-section input[type="checkbox"] {
-    width: 35px;
-    height: 35px;
+.contact-form-section input[type="radio"], .contact-checkbox-group input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
     margin-right: 8px;
 }
 
@@ -390,11 +375,11 @@ iframe {
     resize: vertical;
 }
 
-.submit-button {
+.contact-submit-button {
     background-color: var(--blue-color);
     color: var(--white-color);
     border: none;
-    padding: 20px;
+    padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 3em;
@@ -403,15 +388,66 @@ iframe {
     margin: 30px auto;
 }
 
-.submit-button:hover {
+.contact-submit-button:hover {
     background-color: var(--light-blue-color);
 }
 
 
 /* Home page CSS bellow */
 
+.index-hero {
+    position: relative;
+}
+
+.index-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.index-hero h1 {
+    position: absolute;
+    width: 99.6%;
+    text-align: center;
+    bottom: 80%;
+    background-color: var(--blue-rgba-color);
+    font-family: "Roboto", sans-serif;
+    color: var(--white-color);
+    font-size: 7em;
+    padding: 10px;
+}
+
+.imgs-over-index-hero {
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+    /* transform: translateX(-50%); */
+    width: 100%;
+    padding: 50px;
+}
+
+
+.imgs-over-index-hero img {
+    float: right;
+    width: 15%;
+    height: auto;
+    border-radius: 100px;
+    margin: 200px;
+    border: 8px solid var(--light-blue-color);
+
+}
+
+.newsletter-form-section {
+    background-color: var(--light-blue-color);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+}
+
 .newsletter-form {
-    width: 400px;
+    display: grid;
+    width: 500px;
     margin: 0 auto;
     padding: 20px;
     background-color:var(--white-color);
@@ -431,8 +467,7 @@ iframe {
     font-size: 3em;
 }
 
-.newsletter-form input[type="text"],
-input[type="email"] {
+.newsletter-form input[type="text"], .newsletter-form input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -441,22 +476,81 @@ input[type="email"] {
     box-sizing: border-box;
 }
 
+
 .newsletter-form input[type="submit"] {
-    width: 100%;
-    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;  
+    padding: 12px 24px;
     background-color: var(--blue-color);
     color: var(--white-color);
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .newsletter-form input[type="submit"]:hover {
     background-color: var(--light-blue-color);
 }
+
+.newsletter-form fieldset {
+    border: 2px solid var(--light-blue-color);
+}
+
+.cta-section {
+    background-color: var(--light-blue-color);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.img-cta {
+    width: 50%;
+}
+
+.cta {
+    text-align: center;
+    background-color: var(--white-color);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--light-blue-color);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.cta h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: var(--blue-color);
+}
+
+.cta p {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--black-color);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: auto;
+    
+}
+
+.cta-button:hover {
+    background-color: var(--light-blue-color);
+}
+
+
+
+
 
 
 
