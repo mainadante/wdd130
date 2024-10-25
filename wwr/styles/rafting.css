@@ -28,8 +28,6 @@ header {
     padding: 10px 50px 10px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-    /* z-index: 10; */
-    /* position: relative; */
 }
 
 .navbar {
@@ -121,7 +119,7 @@ main {
 .history-section {
     padding: 40px;
     background-color: var(--light-blue-color);
-    border: 1px solid #ccc;
+    border: 1px solid var(--white-color);
     border-radius: 10px;
     margin: 40px 0;
     text-align: center;
@@ -445,73 +443,70 @@ footer a {
 }
 
 
-
-/* Updated CSS for .cta-newsletter-section with a much larger .cta-section */
 .cta-newsletter-section {
     display: flex;
-    flex-direction: row; /* Side-by-side layout */
-    gap: 120px; /* Increase gap between sections */
+    flex-direction: row; 
+    gap: 120px; 
     align-items: center;
-    padding: 160px 80px; /* Larger padding */
+    padding: 160px 80px; 
     background-color: var(--light-blue-color);
     border-radius: 30px;
     margin: 160px auto;
-    max-width: 2800px; /* Increase the max width */
+    max-width: 2800px;
     flex-wrap: wrap;
 }
 
-/* Much Larger CTA Section Styles */
+
 .cta-newsletter-section .cta-section {
     text-align: center;
     background-color: var(--white-color);
-    padding: 150px; /* Even larger padding */
+    padding: 150px; 
     border-radius: 30px;
     border: 6px solid var(--blue-color);
-    max-width: 2000px; /* Larger max width */
-    flex: 2; /* Make the .cta-section significantly bigger compared to other sections */
+    max-width: 2000px;
+    flex: 2;
 }
 
 .cta-newsletter-section .cta-section img {
     width: 100%;
-    max-width: 2000px; /* Much larger image size */
+    max-width: 2000px; 
     margin-bottom: 60px;
     border-radius: 30px;
 }
 
 .cta-newsletter-section .cta-section h2 {
-    font-size: 6em; /* Even larger heading size */
+    font-size: 6em;
     margin-bottom: 40px;
 }
 
 .cta-newsletter-section .cta-section p {
-    font-size: 3em; /* Even larger paragraph size */
+    font-size: 3em; 
     margin-bottom: 50px;
 }
 
-/* Larger Image Styles */
+
 .cta-newsletter-section .large-image {
-    max-width: 2000px; /* Make the image much larger */
+    max-width: 2000px; 
     flex: 1;
 }
 
-/* Newsletter Form Styles */
 .cta-newsletter-section .newsletter-form {
     background-color: var(--white-color);
     border-radius: 30px;
     border: 6px solid var(--light-blue-color);
-    padding: 150px; /* Much larger padding */
+    padding: 150px; 
     max-width: 1400px;
     width: 100%;
 }
 
 .cta-newsletter-section .newsletter-form legend {
-    font-size: 5em; /* Larger font size */
+    font-size: 5em;
     margin-bottom: 40px;
     text-align: center;
 }
 
 .cta-newsletter-section .newsletter-form label {
-    font-size: 3em; /* Larger font size */
+    font-size: 3em;
     display: block;
     margin-bottom: 30px;
 }
@@ -519,22 +514,22 @@ footer a {
 .cta-newsletter-section .newsletter-form input[type="text"],
 .cta-newsletter-section .newsletter-form input[type="email"] {
     width: 94%;
-    padding: 40px; /* Even larger padding */
+    padding: 40px;
     margin-bottom: 40px;
     border: 4px solid var(--light-blue-color);
     border-radius: 15px;
-    font-size: 2.5em; /* Larger font size */
+    font-size: 2.5em; 
 }
 
 .cta-newsletter-section .newsletter-form input[type="submit"] {
     width: 100%;
     background-color: var(--blue-color);
     color: var(--white-color);
-    padding: 40px; /* Much larger padding */
+    padding: 40px; 
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    font-size: 3em; /* Even larger font size */
+    font-size: 3em; 
     transition: background-color 0.3s;
 }
 
@@ -542,15 +537,14 @@ footer a {
     background-color: var(--light-blue-color);
 }
 
-/* Larger CTA Button Styles */
 .cta-newsletter-section .cta-button {
     display: inline-block;
     background-color: var(--blue-color);
     color: var(--white-color);
-    padding: 30px 60px; /* Increase padding for a larger button */
+    padding: 30px 60px;
     border-radius: 15px;
     text-decoration: none;
-    font-size: 3em; /* Larger font size */
+    font-size: 3em; 
     transition: background-color 0.3s;
     margin-top: 30px;
 }
