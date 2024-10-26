@@ -86,23 +86,28 @@ main {
 
 .about-us-hero article {
     position: absolute;
-    border-radius: 10px;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+    border-radius: 5px;
+    bottom: 1%;
+    left: 5%;
+    /* transform: translateX(-50%); */
     width: 90%;
     background-color: var(--blue-rgba-color);
-    padding: 50px;
+    padding: 10px;
     
 }
 
 .about-us-hero article img {
     float: right;
-    width: 30%;
+    width: 250px;
     height: auto;
     border-radius: 10px;
-    padding-left: 50px;
+    padding-left: 20px;
 
+}
+
+.about-us-hero article h3 {
+    text-align: justify;
+    margin: 0 auto;
 }
 
 .about-us-hero article p {
@@ -111,7 +116,7 @@ main {
     margin: 0 auto;
     color: var(--white-color);
     text-align: justify;
-    padding-top: 4.5%;
+    /* padding-top: 4.5%; */
 }
 
 
