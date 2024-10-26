@@ -33,7 +33,7 @@ header {
 .navbar {
     display: flex;
     align-items: center; 
-    gap: 60px;
+    gap: 35px;
     
 }
 
@@ -75,14 +75,13 @@ main {
 
 .about-us-hero h1 {
     position: absolute;
-    width: 99.6%;
+    width: 100%;
     text-align: center;
     bottom: 80%;
     background-color: var(--blue-rgba-color);
     font-family: "Roboto", sans-serif;
     color: var(--white-color);
     font-size: 3em;
-    padding: 10px;
 }
 
 .about-us-hero article {
@@ -186,8 +185,7 @@ main {
 }
 
 figcaption {
-    margin-top: 10px;
-    font-size: 2em;
+    font-size: 0.8em;
     color: var(--black-color);
 }
 
@@ -265,6 +263,7 @@ footer a {
 
 .map-container iframe {
     width: 30%;
+    height: auto;
 }
 
 
@@ -324,32 +323,41 @@ footer a {
 }
 
 .contact-form-section h2 {
+    margin: 0 auto;
     font-size: 2em;
     text-align: center;
     color: var(--blue-color);
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 
 }
 
 .contact-form-section label {
     display: block;
-    margin-bottom: 10px;
+    /* margin-bottom: 5px; */
     font-size: 1em;
 }
 
 
 .contact-form-section legend {
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
-.contact-form-section input[type="text"], .contact-form-section textarea, .contact-form-section input[type="email"] {
+.contact-form-section input[type="text"], .contact-form-section input[type="email"] {
     width: 97.3%;
-    padding: 20px;
+    padding: 5px;
     margin-bottom: 20px;
     border: 1px solid var(--light-blue-color);
     border-radius: 4px;
 }
 
+.contact-form-section textarea {
+    width: 97.3%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--light-blue-color);
+    border-radius: 4px;
+
+}
 
 .radio-group label,
 .contact-checkbox-group label {
@@ -358,13 +366,13 @@ footer a {
 }
 
 .contact-form-section input[type="radio"], .contact-checkbox-group input[type="checkbox"] {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-right: 8px;
 }
 
 #message {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .textarea textarea {
@@ -375,13 +383,13 @@ footer a {
     background-color: var(--blue-color);
     color: var(--white-color);
     border: none;
-    padding: 12px 24px;
+    padding: 10px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1em;
     width: auto;
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .contact-submit-button:hover {
@@ -406,33 +414,32 @@ footer a {
 
 .index-hero h1 {
     position: absolute;
-    width: 99.6%;
+    width: 100%;
     text-align: center;
-    bottom: 80%;
+    bottom: 70%;
     background-color: var(--blue-rgba-color);
     font-family: "Roboto", sans-serif;
     color: var(--white-color);
     font-size: 3em;
-    padding: 10px;
 }
 
 .imgs-over-index-hero {
     position: absolute;
     bottom: 0%;
-    right: 15%;
+    left: 25%;
     /* transform: translateX(-50%); */
-    width: 100%;
-    padding: 50px;
+    width: 54%;
+    /* padding: 30px; */
 }
 
 
 .imgs-over-index-hero img {
-    float: right;
-    width: 15%;
+    float: left;
+    width: 200px;
     height: auto;
-    border-radius: 100px;
-    margin: 200px;
-    border: 8px solid var(--light-blue-color);
+    /* border-radius: 20px; */
+    margin: 35px;
+    border: 2px solid var(--light-blue-color);
 
 }
 
@@ -443,137 +450,133 @@ footer a {
 
 .cta-newsletter-section {
     display: flex;
-    flex-direction: row; 
-    gap: 120px; 
+    /* flex-direction: row;  */
+    gap: 20px; 
     align-items: center;
-    padding: 160px 80px; 
+    justify-content: center;
+    align-content: center;
+    padding: 20px 20px; 
     background-color: var(--light-blue-color);
     border-radius: 30px;
-    margin: 160px auto;
-    max-width: 2800px;
+    margin: 20px auto;
+    max-width: 80%;
     flex-wrap: wrap;
 }
 
 
-.cta-newsletter-section .cta-section {
+.cta-section {
     text-align: center;
     background-color: var(--white-color);
-    padding: 150px; 
-    border-radius: 30px;
-    border: 6px solid var(--blue-color);
-    max-width: 2000px;
+    padding: 20px; 
+    border-radius: 10px;
+    /* border: 6px solid var(--blue-color); */
+    width: 300px;
     flex: 2;
 }
 
-.cta-newsletter-section .cta-section img {
+.cta-section img {
     width: 100%;
-    max-width: 300px; 
-    margin-bottom: 60px;
-    border-radius: 30px;
+    width: 700px; 
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-.cta-newsletter-section .cta-section h2 {
+.cta-section h2,
+.trips-table-section h2 {
     font-size: 2em;
-    margin-bottom: 40px;
-}
-
-.cta-newsletter-section .cta-section p {
-    font-size: 1em; 
-    margin-bottom: 50px;
-}
-
-
-.cta-newsletter-section .large-image {
-    max-width: 2000px; 
-    flex: 1;
-}
-
-.cta-newsletter-section .newsletter-form {
-    background-color: var(--white-color);
-    border-radius: 30px;
-    border: 6px solid var(--light-blue-color);
-    padding: 150px; 
-    max-width: 1400px;
-    width: 100%;
-}
-
-.cta-newsletter-section .newsletter-form legend {
-    font-size: 2em;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.cta-newsletter-section .newsletter-form label {
-    font-size: 1em;
-    display: block;
     margin-bottom: 30px;
 }
 
-.cta-newsletter-section .newsletter-form input[type="text"],
-.cta-newsletter-section .newsletter-form input[type="email"] {
+.cta-section p {
+    font-size: 1em; 
+    margin-bottom: 20px;
+    
+}
+
+
+.cta-button {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 110px;
+    display: block;
+    margin: 20px auto;
+}
+
+.cta-button:hover {
+    background-color: var(--light-blue-color);
+}
+
+
+
+.large-image {
+    max-width: 300px; 
+    /* flex: 1; */
+    
+}
+
+.newsletter-form fieldset {
+    border: 2px solid var(--light-blue-color);
+}
+
+.newsletter-form {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    border: 5px solid var(--blue-color);
+    padding: 10px; 
+    width: 300px;
+    height: auto;
+    /* width: 100%; */
+    
+}
+
+.newsletter-form legend {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.newsletter-form label {
+    font-size: 1em;
+    display: block;
+    /* margin-bottom: 30px; */
+}
+
+.newsletter-form input[type="text"], .newsletter-form input[type="email"] {
     width: 94%;
-    padding: 40px;
-    margin-bottom: 40px;
-    border: 4px solid var(--light-blue-color);
-    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid var(--light-blue-color);
+    border-radius: 4px;
     font-size: 1em; 
 }
 
-.cta-newsletter-section .newsletter-form input[type="submit"] {
-    width: 100%;
+.newsletter-form input[type="submit"] {
     background-color: var(--blue-color);
     color: var(--white-color);
-    padding: 40px; 
+    padding: 10px; 
     border: none;
-    border-radius: 15px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 1em; 
     transition: background-color 0.3s;
+    display: block;
+    margin: 20px auto;
 }
 
-.cta-newsletter-section .newsletter-form input[type="submit"]:hover {
+.newsletter-form input[type="submit"]:hover {
     background-color: var(--light-blue-color);
 }
 
-.cta-newsletter-section .cta-button {
-    display: inline-block;
-    background-color: var(--blue-color);
-    color: var(--white-color);
-    padding: 30px 60px;
-    border-radius: 15px;
-    text-decoration: none;
-    font-size: 1em;
-    transition: background-color 0.3s;
-    margin-top: 30px;
-}
-
-.cta-
-r-section .cta-button:hover {
-    background-color: var(--light-blue-color);
-}
 
 
 /* CSS for trips.html bellow */
 
 
-.cta-section {
-    text-align: center;
-    background-color: var(--light-blue-color);
-    padding: 60px 30px;
-    border-radius: 10px;
-    margin: 40px auto;
-    max-width: 1200px;
-}
-
-.cta-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.cta-section p {
-    font-size: 1em;
-    margin-bottom: 30px;
-}
 
 
 .trips-grid {
@@ -647,12 +650,5 @@ r-section .cta-button:hover {
 .trip p {
     font-size: 1em; 
     margin-bottom: 30px;
-}
-
-/* Larger Heading Styles */
-.cta-section h2,
-.trips-table-section h2 {
-    font-size: 2em;
-    margin-bottom: 60px;
 }
 
