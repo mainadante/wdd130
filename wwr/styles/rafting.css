@@ -151,6 +151,12 @@ main {
     margin: 0;
 }
 
+.wireframe {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1em;
+}
+
 .adventures-section {
     padding: 40px;
     background-color: var(--light-blue-color); 
