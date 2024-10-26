@@ -202,7 +202,7 @@ footer {
     background-color: var(--blue-color);
     padding: 40px;
     border-radius: 10px;
-    gap: 40px;
+    gap: 15px;
 }
 
 footer p {
@@ -218,7 +218,7 @@ footer a {
 
 .sociallinks {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .sociallinks a img {
@@ -582,7 +582,24 @@ footer a {
 
 /* CSS for trips.html bellow */
 
+.trips-cta-section {
+    text-align: center;
+    background-color: var(--light-blue-color);
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
 
+.trips-cta-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.trips-cta-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
 
 
 .trips-grid {
@@ -631,7 +648,7 @@ footer a {
 .trips-table th, .trips-table td {
     border: 2px solid var(--blue-color);
     padding: 15px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .trips-table th {
